@@ -30,4 +30,5 @@
   (e/create-statement "create schema YNSpikeEvent (spike_int integer)")
   (create-once-listener)
   (create-avg-count-listener)
-  (send-events))
+  (send-events)
+  @result)
